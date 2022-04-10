@@ -12,7 +12,7 @@ def check_exists_by_css():
         return False
     return True
 
-def test_guest_should_see_login_link_pass(browser):
+def test_guest_should_see_button(browser):
     browser.get(link)
     #раскомментируйте следующую строку для проверки корректности отображения языка:
     #time.sleep(30)    
